@@ -23,7 +23,7 @@ mvn package
     webChat.jar
 * Ejecutar desde la terminal (Posicionandose en la carpeta que contiene el jar) el siguiente comando
 ```
-java jar- webChat.jar
+java jar- webChat-1-0.jar
 ```
 
 * Abrir un navegador e ingresar la url  
