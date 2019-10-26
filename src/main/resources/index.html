@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chat</title>
+<meta name="description" content="CHAT">
+<link rel="stylesheet" type="text/css" href="/css/style.css"
+	media="screen" />
+</head>
+<body>
+
+	<div id="title">Chat</div>
+
+	<form id="authentication" onsubmit="return false;">
+		<input type="text" id="username" placeholder="Usuario" autofocus /> <input
+			type="password" id="password" placeholder="Contraseña" />
+		<button class="button" onclick="login()">Login</button>
+		<span class="error" id="authentication-error"></span>
+	</form>
+
+	<div id="users"></div>
+	<div id="chat">
+		<div id="messages"></div>
+		<form id="chat-controls" onsubmit="return false;">
+			<input type="text" id="message" placeholder="Mensaje" />
+			<button class="button" onclick="sendMessage()">Enviar</button>
+		</form>
+	</div>
+	<script type="text/javascript" src="/js/chat.js"></script>
+</body>
+</html>
